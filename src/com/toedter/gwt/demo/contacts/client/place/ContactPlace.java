@@ -16,6 +16,7 @@ import com.google.gwt.place.shared.Place;
 import com.google.gwt.place.shared.PlaceTokenizer;
 
 public class ContactPlace extends Place {
+	
 	private final String token;
 
 	public ContactPlace(String token) {

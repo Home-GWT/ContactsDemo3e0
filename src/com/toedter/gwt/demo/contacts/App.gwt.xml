@@ -15,7 +15,7 @@
   <inherits name="com.google.gwt.place.Place"/>
 
   <!-- Specify the app entry point class.                         -->
-  <entry-point class='com.toedter.gwt.demo.contacts.client.ContactsDemo'/>
+  <entry-point class='com.toedter.gwt.demo.contacts.client.App'/>
 
   <!-- Use ClientFactoryImpl by default -->
   <replace-with class="com.toedter.gwt.demo.contacts.client.ClientFactory">

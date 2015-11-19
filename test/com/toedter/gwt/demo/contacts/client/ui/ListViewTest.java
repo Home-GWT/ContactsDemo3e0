@@ -10,7 +10,7 @@ import com.google.gwt.user.cellview.client.CellTable;
 import com.octo.gwt.test.GwtCreateHandler;
 import com.octo.gwt.test.GwtTest;
 import com.octo.gwt.test.utils.events.Browser;
-import com.toedter.gwt.demo.contacts.client.ContactsDemo;
+import com.toedter.gwt.demo.contacts.client.App;
 import com.toedter.gwt.demo.contacts.client.IClientFactory;
 import com.toedter.gwt.demo.contacts.client.mvp.AppPlaceHistoryMapper;
 import com.toedter.gwt.demo.contacts.client.place.ContactEditPlace;
@@ -63,7 +63,7 @@ public class ListViewTest extends GwtTest {
 	public void setupGwtTestSample() {
 		addGwtCreateHandler(new MyGwtCreateHandler());
 
-		ContactsDemo contactsDemo = new ContactsDemo();
+		App contactsDemo = new App();
 		contactsDemo.onModuleLoad();
 		clientFactory = contactsDemo.getClientFactory();
 	}
