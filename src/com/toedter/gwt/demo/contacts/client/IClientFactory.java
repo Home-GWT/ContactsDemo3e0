@@ -22,6 +22,7 @@ import com.toedter.gwt.demo.contacts.client.ui.IToolBarView;
 import com.toedter.gwt.demo.contacts.shared.Contact;
 
 public interface IClientFactory {
+	
 	EventBus getEventBus();
 
 	PlaceController getPlaceController();
@@ -37,4 +38,5 @@ public interface IClientFactory {
 	List<Contact> getContacts();
 
 	void setContacts(List<Contact> contacts);
+	
 }
