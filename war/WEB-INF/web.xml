@@ -9,7 +9,6 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 		<servlet-name>contactServlet</servlet-name>
 		<servlet-class>com.toedter.gwt.demo.contacts.server.ContactService</servlet-class>
 	</servlet>
-
 	<servlet-mapping>
 		<servlet-name>contactServlet</servlet-name>
 		<url-pattern>/contactsDemo/contact</url-pattern>
