@@ -27,16 +27,17 @@ import com.toedter.gwt.demo.contacts.client.ui.ToolBarView;
 import com.toedter.gwt.demo.contacts.shared.Contact;
 
 public class ClientFactory implements IClientFactory {
-	private static final EventBus eventBus = new SimpleEventBus();
-	private static final PlaceController placeController = new PlaceController(eventBus);
+	
+	private static final EventBus                     eventBus = new SimpleEventBus();
+	private static final PlaceController       placeController = new PlaceController(eventBus);
 
-	private static final IContactListView contactListView = new ContactListView2();
+	private static final IContactListView       contactListView = new ContactListView2();
 
 	private static final IContactDetailsView contactDetailsView = new ContactDetailsView2();
 
-	private static final IToolBarView toolBarView = new ToolBarView();
+	private static final IToolBarView               toolBarView = new ToolBarView();
 
-	private final IContactServiceAsync contactService = GWT.create(IContactService.class);
+	private final IContactServiceAsync           contactService = GWT.create(IContactService.class);
 	private List<Contact> contacts;
 
 	@Override
