@@ -35,15 +35,15 @@ import com.toedter.gwt.demo.contacts.client.mvp.WestActivityMapper;
 import com.toedter.gwt.demo.contacts.client.place.ContactPlace;
 
 public class App implements EntryPoint {
-	private final Place defaultPlace = new ContactPlace("");
+	private final Place                defaultPlace = new ContactPlace("");
 
-	private final DockLayoutPanel dockLayoutPanel = new DockLayoutPanel(Unit.EM);
-	private final SplitLayoutPanel splitLayoutPanel = new SplitLayoutPanel();
-	private final SimplePanel centerPanel = new SimplePanel();
-	private final SimplePanel westPanel = new SimplePanel();
-	private final SimplePanel northPanel = new SimplePanel();
+	private final DockLayoutPanel   dockLayoutPanel = new DockLayoutPanel(Unit.EM); // Документная (информативная) панель
+	private final SplitLayoutPanel splitLayoutPanel = new SplitLayoutPanel();       // Разделитель между компонентами (слоями) панелей
+	private final SimplePanel           centerPanel = new SimplePanel();            // Центральная панель
+	private final SimplePanel             westPanel = new SimplePanel();            // Западная панель
+	private final SimplePanel            northPanel = new SimplePanel();            // Cеверная панель
 
-	AcceptsOneWidget northDisplay = new AcceptsOneWidget() {
+	AcceptsOneWidget northDisplay = new AcceptsOneWidget(){
 		@Override
 		public void setWidget(IsWidget activityWidget) {
 			Widget widget = Widget.asWidgetOrNull(activityWidget);
