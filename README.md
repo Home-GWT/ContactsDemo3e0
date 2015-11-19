@@ -19,6 +19,9 @@
 * `com.contactsdemo.server.VCardContactsRepository` **Для Windows-системы:** [String path = getClass().getResource("").getPath();](#) | **Для Linux-системы:** [String path = "/"+getClass().getResource("").getPath();](#)
 
 
+##[ Google App Engine Java и Google Web Toolkit.pdf ]...........[ Введение ]...........[ страница #9 ]
+> Google Web Toolkit (GWT) обеспечивает создание RIA (Rich Internet Application) Ajax-приложений на основе Java-кода.
+
 ##[ Google App Engine Java и Google Web Toolkit.pdf ]...........[ ГЛАВА 19 ]...........[ страница #321 ]
 ##Поддержка истории Web-браузера
 > Для Ajax-приложений с **одной HTML-страницей**, содержимое которой изменяется есть проблема с использованием кнопок Web-браузера **Назад** и **Вперед**.
@@ -41,3 +44,14 @@
 
 ##gwt-tutorial-ru.pdf ...... Асинхронный вызовы ...... Создайте прокси сервисного класса ...... Создайте callback ...... страница #29-30
 * `gwt-tutorial-ru.pdf`: [drive.google.com/file/d/0B418nT5Bo9w_engtSTdpVDllY2s](https://drive.google.com/file/d/0B418nT5Bo9w_engtSTdpVDllY2s/view) **(** *[github.com/Home-GWT/docs/blob/master/gwt-tutorial-ru.pdf](https://github.com/Home-GWT/docs/blob/master/gwt-tutorial-ru.pdf)* **)**
+
+
+##[Google App Engine Java и Google Web Toolkit.pdf - страница 10](http://)
+> Регистрация приложения в App Engine осуществляется с помощью Web-страницы консоли администратора по адресу [https://appengine.google.com/](https://appengine.google.com/), при этом на один аккаунт разработчика можно зарегистрировать до 10 приложений. 
+>
+> В процессе регистрации для приложения создается поддомен домена appspot.com и формируется URL-адрес доступа к приложению в виде http://[идентификатор приложения].appspot.com/. После регистрации приложение можно привязать к домену, зарегистрированному в бизнес-приложении Google Apps ([http://www.google.com/apps/intl/ru/business/](http://www.google.com/apps/intl/ru/business/)). 
+>
+> Само добавление приложения в App Engine после его регистрации осуществляется с помощью инструментов разработки GAE-приложений.
+>
+>Для разработки приложений GAE-платформа предоставляет наборы Google App Engine SDK для Java, Python и Go, обеспечивающие эмуляцию соответствующих сред выполнения, работу GAE-служб и инструменты загрузки приложений в GAE-платформу.
+>
