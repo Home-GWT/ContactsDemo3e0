@@ -57,7 +57,7 @@ public class VCardContactsRepository implements IContactsRepository {
 	}
 
 	private String getVCardsDir() {
-		String path = getClass().getResource("").getPath();
+		String path = "/"+getClass().getResource("").getPath();
 		path = path.substring(1, path.indexOf("WEB-INF")) + "vcards";
 		return path;
 	}
